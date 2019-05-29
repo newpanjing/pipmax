@@ -10,6 +10,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
+const copyWebpackPlugin = require('copy-webpack-plugin');
 
 let webConfig = {
   devtool: '#cheap-module-eval-source-map',
